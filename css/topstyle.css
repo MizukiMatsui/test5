@@ -8,6 +8,14 @@
   box-sizing:border-box;
 }
 
+ body{
+   color:#000;
+ }
+
+a{
+  text-decoration: none;
+   color:#000;
+}
 
 
 header.headblock {
@@ -43,16 +51,8 @@ header.headblock {
 .mainlist li {
   display: inline-block;
   list-style : none ;
-  font-size: 17px ;
-  letter-spacing: 1px;
-  float : left;
-  padding : 3px 20px 0px 20px;
-  margin : 24px 0px 0 8px;
-  background-color: white;
-  color : black;
-  border-radius: 18px;
   font-family: "arial unicode ms";
-  cursor: pointer;
+
 }
 .header-right {
   float:right;
@@ -69,17 +69,30 @@ header.headblock {
   /* displayをnoneに指定してください */
   display: none;
 }
-.mainlist li:hover {
+
+.mainlist li a{
+  font-size: 17px ;
+  letter-spacing: 1px;
+  float : left;
+  padding : 3px 20px 0px 20px;
+  margin : 24px 0px 0 8px;
+  background-color: white;
+  color : black;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.mainlist li a:hover {
   background-color: black;
   color : white;
   transition:0.5s;
 }
-.mainlist .l-icon:hover{
+.mainlist .l-icon a:hover{
   background-color: #00B900;
   color : white;
   transition:0.5s;
 }
-.mainlist .t-icon:hover {
+.mainlist .t-icon a:hover {
   background-color: #1DA1F2;
   color : white;
   transition:0.5s;
@@ -107,6 +120,9 @@ header.headblock {
   font-size : 22px;
   font-family: "arial unicode ms";
   padding-bottom :40px ;
+}
+.top .subtext2 {
+  display: none;
 }
 
 /*.コンテンツエリア*/

@@ -7,15 +7,13 @@
   .prof-area .prof {
 display: none;
 }
- .top .subtext2 {
-   display: none;
- }
+
 
 }
 
 
 
-@media (max-width:1220px) {
+@media (max-width:1300px) {
   .tile3 {
     width :50%;
   }
@@ -36,7 +34,7 @@ display: none;
     display: none;
   }
   .header-right .mail-icon{
-    display: block;
+    display: inline-block;
   }
   .menu-icon {
     display: block;
@@ -59,7 +57,7 @@ margin-left: 5px;
 
   }
 
-@media (max-width:850px) {
+@media (max-width:896px) {
   .pc{
     display:none;
   }
@@ -96,6 +94,26 @@ margin-left: 5px;
 }
 
 
+@media (max-width:550px) {
+  .sp {
+    display: block;
+  }
+  .tile {
+    width :100%;
+  }
+  .header-right .mail-icon{
+    display: none;
+  }
+  .header-right .t-icon{
+    display: none;
+  }
+  .top .toptext {
+    display: none;
+  }
+  .top .subtext2 {
+    padding-top: 60px;
+  }
+}
 
 
 
